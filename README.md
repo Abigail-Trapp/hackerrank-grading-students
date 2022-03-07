@@ -1,0 +1,2 @@
+# hackerrank-grading-students
+From the Hacker Rank challenge "grading students". The function takes a student's grade as a parameter. If the student's grade can be rounded up to the nearest 5, the student gets their grade returned back to it's nearest 5. If the grade is less than 40 or cannot be rounded to the nearest 5, the grade is returned as is. If the grade is less than 40 but can be rounded to the nearest 5 resulting in 40, a grade of 40 is returned.   
