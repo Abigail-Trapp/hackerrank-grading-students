@@ -1,7 +1,23 @@
-function diagonalDifference(arr) {
-    let result = 0
-    for(let i=0;i<arr.length;i++){
-        result += arr[i][i] - arr[i][(arr.length-i)-1] // (arr.length-i)-1 reverses the array and iterates in reverse
-    }
-    return Math.abs(result)
+function gradingStudents(grades){
+let result = []
+for(let i of grades){
+if((i < 40) && (Math.ceil(i/5)*5 !== 40)){
+  result.push(i) 
+} 
+else if(Math.ceil(i/5)*5 - i < 3){
+    result.push(Math.ceil(i/5)*5)
+} else {
+  result.push(i)
 }
+}
+  return result
+}
+console.log(gradingStudents(88))
+
+
+// let grade = prompt("Enter the student's grade")
+
+// let body = document.querySelector("body")
+// let p = document.createElement("p")
+// p.innerHTML = `${diagonalDifference(grade)}`
+// body.append(p)
