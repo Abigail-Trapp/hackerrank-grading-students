@@ -15,9 +15,9 @@ else if(Math.ceil(i/5)*5 - i < 3){
 console.log(gradingStudents([88]))
 
 
-let body = document.querySelector('body')
+let div = document.querySelector('div')
 let p = document.createElement('p')
 p.innerHTML= `${gradingStudents([88])}`
-body.append(p)
+div.append(p)
 
 
