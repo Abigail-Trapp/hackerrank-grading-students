@@ -12,12 +12,12 @@ else if(Math.ceil(i/5)*5 - i < 3){
 }
   return result
 }
-console.log(gradingStudents([88]))
+// console.log(gradingStudents([88]))
 
 
-let div = document.querySelector('div')
-let p = document.createElement('p')
-p.innerHTML= `${gradingStudents([88])}`
-div.append(p)
+// let div = document.querySelector('div')
+// let p = document.createElement('p')
+// p.innerHTML= `${gradingStudents([88])}`
+// div.append(p)
 
 
